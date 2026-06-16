@@ -1,0 +1,184 @@
+@import url("https://googleapis.com");
+
+body {
+  font-family: "roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 80px 0;
+  max-width: 55%;
+}
+
+.header,
+.footer,
+.hero {
+  background-color: #1f2937;
+  color: white;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 500;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 4px 32px;
+  border-radius: 8px;
+}
+
+.hero .container {
+  justify-content: space-between;
+  padding: 100px 0;
+  gap: 32px;
+}
+
+.hero img {
+  height: auto;
+  max-width: 500px;
+  aspect-ratio: 16/9;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-left .hero-title {
+  margin: 0;
+}
+
+.info .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 4px solid #3882f6;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #737373;
+}
+
+.info .heading {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  margin: 0;
+}
+
+.quoted-by {
+  font-weight: 800;
+  font-size: 24px;
+  margin: 0px 0px 0px auto;
+}
+
+.quote .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta .cta-button {
+  border: solid 2px white;
+  border-radius: 4px;
+  background-color: #3882f6;
+  color: white;
+  padding: 4px 32px;
+}
+
+.cta-text h3,
+.cta-text p {
+  margin: 0;
+  color: white;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta .container {
+  background-color: #3882f6;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 48px 64px;
+  margin: 80px auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 16px 0;
+}

@@ -1,0 +1,41 @@
+/* #region 1*/
+/* ========================================= */
+/* 1. Global Settings */
+/* ========================================= */
+/* Font and links and buttons laybouts */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font structure */
+body {
+  font-family: "roboto", sans-serif;
+}
+
+/* Links design */
+a,
+ul {
+  text-decoration: none;
+  color: black;
+}
+
+/* Button Design */
+button {
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: #3882f6;
+  color: white;
+  padding: 4px 16px;
+}
+
+/* Image layout */
+img {
+  width: 100%;
+  object-fit: cover;
+}
+/* #endregion */
